@@ -13,5 +13,6 @@ class Articulo extends Model
     function Rubro(){
         return $this->BelongsTo('App\Rubro');
     }
+    
 }
 
